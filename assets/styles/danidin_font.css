@@ -1,0 +1,41 @@
+/*
+ * DaniDin Typeface - Property of Hafontia
+      Any use (COMMERCIAL OR NOT) of this Typeface must be licensed.
+		  For licensing options and information see http://hafontia.com
+*/
+
+@font-face {
+  font-family: 'DaniDin';
+  font-style: normal;
+  font-weight: 400;
+  src: url("http://film.livyatanim.com/DaniDin/fonts/Danidin-Regular.woff") format('woff'),
+       url("http://film.livyatanim.com/DaniDin/fonts/Danidin-Regular.otf") format('opentype');
+}
+@font-face {
+  font-family: 'DaniDin';
+  font-style: normal;
+  font-weight: 700;
+  src: url("http://film.livyatanim.com/DaniDin/fonts/Danidin-Bold.woff") format('woff'),
+       url("http://film.livyatanim.com/DaniDin/fonts/Danidin-Bold.otf") format('opentype')
+}
+@font-face {
+  font-family: 'DaniDin';
+  font-style: normal;
+  font-weight: 600;
+  src: url("http://film.livyatanim.com/DaniDin/fonts/Danidin-SemiBold.woff") format('woff'),
+       url("http://film.livyatanim.com/DaniDin/fonts/Danidin-SemiBold.otf") format('opentype');
+}
+@font-face {
+  font-family: 'DaniDin';
+  font-style: normal;
+  font-weight: 800;
+  src: url("http://film.livyatanim.com/DaniDin/fonts/Danidin-Heavy.woff") format('woff'),
+       url("http://film.livyatanim.com/DaniDin/fonts/Danidin-Heavy.otf") format('opentype');
+}
+@font-face {
+  font-family: 'DaniDin';
+  font-style: normal;
+  font-weight: 900;
+  src: url("http://film.livyatanim.com/DaniDin/fonts/Danidin-Black.woff") format('woff'),
+       url("http://film.livyatanim.com/DaniDin/fonts/Danidin-Black.otf") format('opentype');
+}

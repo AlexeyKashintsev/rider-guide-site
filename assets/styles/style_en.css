@@ -1,0 +1,300 @@
+@font-face {
+font-family: 'Alegreya Sans', sans-serif;
+src: url(http://fonts.googleapis.com/css?family=Alegreya+Sans:100);
+}
+body {
+				background:black;
+				color:#ffffff;
+				padding:0;
+				margin:0;
+				overflow:hidden;
+                font-family: 'Alegreya Sans', sans-serif;
+				text-align:center;
+			}
+			canvas { pointer-events:none; z-index:10; }
+
+.cards {
+    position:relative;
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.film_text {
+    display: block;
+    position: absolute;
+    top: 110px ;
+    right: 0 ;
+    bottom : 0 ;
+    left : 0 ;
+    margin : auto;
+    z-index:3;
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    cursor:default
+}
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 100;
+    font-size: 40px;
+    line-height: 0.5;
+}
+h2 {
+    font-family: 'Bentham', serif;
+   font-size: 24px;
+   font-weight: 400;
+   line-height: 0.2
+
+}
+h3 {
+    font-family: 'Josefin Sans', sans-serif;
+   font-size: 15px;
+   font-weight: 100;
+}
+a {
+   color: white;
+   text-decoration: none;
+}
+
+.watch_film_button_en {
+   font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    vertical-align: middle;
+    width: 100px;
+    padding: 15px;
+    margin: 0;
+    margin-right: 10px;
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    background-color: white;
+    color: black;
+    font-weight:100;
+    border: 1px solid white;
+    border-radius: 2px;
+    font-size: 15px;
+    -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: background;
+  transition-property: background;
+  box-shadow: 0 0 1px white;
+}
+.watch_film_button_en:hover, .watch_film_button_en:focus, .watch_film_button_en:active {
+ font-family: 'Roboto', sans-serif;
+  background: none;
+  color: white;
+}
+.buy_album_button_en {
+  font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    vertical-align: middle;
+    width: 100px;
+    padding: 15px;
+    margin: 0;
+    margin-left: 10px;
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    background-color: white;
+    color: black;
+    font-weight:100;
+    border: 1px solid white;
+    border-radius: 2px;
+    font-size: 15px;
+    -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: background;
+  transition-property: background;
+  box-shadow: 0 0 1px white;
+}
+.buy_album_button_en:hover, .buy_album_button_en:focus, .buy_album_button_en:active {
+ font-family: 'Roboto', sans-serif;
+  background: none;
+  color: white;
+}
+
+/* ---------Footer-------------*/
+.footer_social_en {
+-moz-user-select: -moz-none;
+-khtml-user-select: none;
+-webkit-user-select: none;
+-o-user-select: none;
+user-select: none;
+background: #ffffff;
+background-color: rgba(255, 255, 255, 0.8);
+position: absolute;
+width: 100px;
+height: 40px;
+padding-top: 0;
+margin: 0;
+bottom: 45px;
+right: 10px;
+color: #000000;
+}
+.footer_social_en img {
+-moz-user-select: -moz-none;
+-khtml-user-select: none;
+-webkit-user-select: none;
+-o-user-select: none;
+user-select: none;
+position: relative;
+margin: 0;
+top: 7px;
+padding: 5px;
+}
+@media only screen and (min-device-width: 0px) and (max-device-width: 720px) {div.footer_social_en {visibility:hidden;}}
+.footer_links_en {
+background: #ffffff;
+background-color: rgba(255, 255, 255, 0.8);
+position: absolute;
+margin: 10px;
+padding: 5px;
+bottom: 0;
+right: 0;
+color: #000000;
+width: 295px;
+font-weight: 100;
+font-size: 12px;
+}
+.footer_links_en a{
+color: #000000;
+}
+#responsive {
+  position:absolute;
+  bottom:0px;
+  width:100%;
+  height:50px;
+  transition: height 0.5s;
+}
+#responsive_button {
+  width:100%;
+  height: 50px;
+  position:absolute;
+}
+
+#responsive_button div {
+  position:absolute;
+  text-align:center;
+  width:100%;
+  transition:opacity 0.5s;
+  opacity:0;
+}
+
+#responsive_button #menu_open {
+  opacity:1;
+}
+
+
+#responsive_button div img{
+  height:50px;
+}
+
+#responsive_menu{
+  width:100%;
+  height: 300px;
+  padding-top:50px;
+}
+
+#responsive_menu iframe{
+  width:100%;
+  height:100%;
+  border: 0;
+  background-color:white;
+}
+
+
+@media only screen and (min-device-height: 0px) and (max-device-height: 720px) {div.footer_links_en {visibility:hidden;}}
+.phenomena_labs_en {
+position: absolute;
+left: 0;
+bottom : 0;
+
+}
+.phenomena_labs_en img {
+margin: 10px;
+}
+@media only screen and (min-device-height: 0px) and (max-device-height: 720px) {div.phenomena_labs_en {visibility:hidden;}}
+#language_warper {
+  position: absolute;
+  top: 205px;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+.laff{}
+.kvff{}
+.fgim{}
+.fwa{}
+
+
+/*-------------Festivals---------------------*/
+@media only screen and (min-device-height: 0px) and (max-device-height: 720px) {div.laff {visibility:hidden;}}
+@media only screen and (min-device-height: 0px) and (max-device-height: 720px) {div.kvff {visibility:hidden;}}
+@media only screen and (min-device-height: 0px) and (max-device-height: 720px) {div.fgim {visibility:hidden;}}
+@media only screen and (min-device-height: 0px) and (max-device-height: 720px) {div.fwa {visibility:hidden;}}
+
+#parallax{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+
+}
+
+#parallax .parallax-bottom{
+    width: 120%;
+    left: -10%;
+    position: absolute;
+    background-size: cover;
+    z-index: 2;
+    height: 40vh;
+    bottom: 0px;
+}
+
+#parallax .parallax-top {
+    position: absolute;
+    width: 120%;
+    left: -10%;
+    background-size: cover;
+    z-index: 1;
+    height: 120vh;
+    bottom: 55px;
+
+}
+
+.parallax-content{
+    height: 1000px;
+}
+
+#image1{
+    position: absolute;
+}
+
+#image2{
+    position: absolute;
+    height: 1000px;
+}
+
+
+@media screen and (max-height: 800px){#parallax .parallax-bottom{height: 45vh;} #parallax .parallax-top { height: 135vh; bottom: 0px;}}
+@media screen and (max-height: 700px){#parallax .parallax-bottom{height: 50vh;} #parallax .parallax-top { height: 155vh;}}
+@media screen and (max-height: 600px){#parallax .parallax-bottom{height: 55vh;} #parallax .parallax-top { height: 170vh;}}
+@media screen and (max-height: 500px){#parallax .parallax-bottom{height: 60vh;} #parallax .parallax-top { height: 190vh;}}
+@media screen and (max-height: 400px){#parallax .parallax-bottom{height: 70vh;} #parallax .parallax-top { height: 220vh;}}
+@media screen and (max-height: 300px){#parallax .parallax-bottom{height: 80vh;} #parallax .parallax-top { height: 240vh;}}
+
+
