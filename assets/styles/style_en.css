@@ -13,16 +13,8 @@ body {
 			}
 			canvas { pointer-events:none; z-index:10; }
 
-.cards {
-    position:relative;
-    -moz-user-select: -moz-none;
-    -khtml-user-select: none;
-    -webkit-user-select: none;
-    -o-user-select: none;
-    user-select: none;
-}
 
-.film_text {
+.content {
     display: block;
     position: absolute;
     top: 110px ;
@@ -61,7 +53,7 @@ a {
    text-decoration: none;
 }
 
-.watch_film_button_en {
+.became_tester {
    font-family: 'Roboto', sans-serif;
     display: inline-block;
     vertical-align: middle;
@@ -89,44 +81,7 @@ a {
   transition-property: background;
   box-shadow: 0 0 1px white;
 }
-.watch_film_button_en:hover, .watch_film_button_en:focus, .watch_film_button_en:active {
- font-family: 'Roboto', sans-serif;
-  background: none;
-  color: white;
-}
-.buy_album_button_en {
-  font-family: 'Roboto', sans-serif;
-    display: inline-block;
-    vertical-align: middle;
-    width: 100px;
-    padding: 15px;
-    margin: 0;
-    margin-left: 10px;
-    -moz-user-select: -moz-none;
-    -khtml-user-select: none;
-    -webkit-user-select: none;
-    -o-user-select: none;
-    user-select: none;
-    background-color: white;
-    color: black;
-    font-weight:100;
-    border: 1px solid white;
-    border-radius: 2px;
-    font-size: 15px;
-    -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-property: background;
-  transition-property: background;
-  box-shadow: 0 0 1px white;
-}
-.buy_album_button_en:hover, .buy_album_button_en:focus, .buy_album_button_en:active {
- font-family: 'Roboto', sans-serif;
-  background: none;
-  color: white;
-}
+
 
 /* ---------Footer-------------*/
 .footer_social_en {
@@ -216,85 +171,10 @@ color: #000000;
   border: 0;
   background-color:white;
 }
-
-
-@media only screen and (min-device-height: 0px) and (max-device-height: 720px) {div.footer_links_en {visibility:hidden;}}
-.phenomena_labs_en {
-position: absolute;
-left: 0;
-bottom : 0;
-
+.shadowed_text {
+    text-shadow: 1px 1px 15px #222;
 }
-.phenomena_labs_en img {
-margin: 10px;
+.shadowed_image {
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222);
 }
-@media only screen and (min-device-height: 0px) and (max-device-height: 720px) {div.phenomena_labs_en {visibility:hidden;}}
-#language_warper {
-  position: absolute;
-  top: 205px;
-  right: 0;
-  left: 0;
-  margin: auto;
-}
-.laff{}
-.kvff{}
-.fgim{}
-.fwa{}
-
-
-/*-------------Festivals---------------------*/
-@media only screen and (min-device-height: 0px) and (max-device-height: 720px) {div.laff {visibility:hidden;}}
-@media only screen and (min-device-height: 0px) and (max-device-height: 720px) {div.kvff {visibility:hidden;}}
-@media only screen and (min-device-height: 0px) and (max-device-height: 720px) {div.fgim {visibility:hidden;}}
-@media only screen and (min-device-height: 0px) and (max-device-height: 720px) {div.fwa {visibility:hidden;}}
-
-#parallax{
-    width: 100vw;
-    height: 100vh;
-    position: relative;
-
-}
-
-#parallax .parallax-bottom{
-    width: 120%;
-    left: -10%;
-    position: absolute;
-    background-size: cover;
-    z-index: 2;
-    height: 40vh;
-    bottom: 0px;
-}
-
-#parallax .parallax-top {
-    position: absolute;
-    width: 120%;
-    left: -10%;
-    background-size: cover;
-    z-index: 1;
-    height: 120vh;
-    bottom: 55px;
-
-}
-
-.parallax-content{
-    height: 1000px;
-}
-
-#image1{
-    position: absolute;
-}
-
-#image2{
-    position: absolute;
-    height: 1000px;
-}
-
-
-@media screen and (max-height: 800px){#parallax .parallax-bottom{height: 45vh;} #parallax .parallax-top { height: 135vh; bottom: 0px;}}
-@media screen and (max-height: 700px){#parallax .parallax-bottom{height: 50vh;} #parallax .parallax-top { height: 155vh;}}
-@media screen and (max-height: 600px){#parallax .parallax-bottom{height: 55vh;} #parallax .parallax-top { height: 170vh;}}
-@media screen and (max-height: 500px){#parallax .parallax-bottom{height: 60vh;} #parallax .parallax-top { height: 190vh;}}
-@media screen and (max-height: 400px){#parallax .parallax-bottom{height: 70vh;} #parallax .parallax-top { height: 220vh;}}
-@media screen and (max-height: 300px){#parallax .parallax-bottom{height: 80vh;} #parallax .parallax-top { height: 240vh;}}
-
-
