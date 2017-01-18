@@ -101,6 +101,7 @@
 		
 		var anim = bodymovin.loadAnimation(animData);
 		window.onresize = anim.resize.bind(anim);
+		document.body.addEventListener('touchstart', function(e){ e.preventDefault(); });
 		
 	</script>
 	<div><img src="https://mc.yandex.ru/watch/42118464" style="position:absolute; left:-9999px;" alt="" /></div>
