@@ -116,7 +116,14 @@ margin: 0;
 top: 7px;
 padding: 5px;
 }
-@media only screen and (min-device-width: 0px) and (max-device-width: 720px) {div.footer_social_en {visibility:hidden;}}
+@media only screen and (min-device-width: 0px) and (max-device-width: 720px) {
+    div.footer_social_en {
+        /*visibility:hidden;*/
+        bottom: 10px;
+    }
+    div.content {top: 10px}
+    div#frontlayer {display: none}
+}
 .footer_links_en {
 background: #ffffff;
 background-color: rgba(255, 255, 255, 0.8);
