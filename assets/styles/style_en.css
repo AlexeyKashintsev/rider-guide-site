@@ -183,7 +183,7 @@ color: #000000;
   background-color:white;
 }
 .shadowed_text {
-    text-shadow: 1px 1px 15px #222, 0 0 3px #000;
+    text-shadow: 1px 1px 3px #222, 0 0 3px #000;
 }
 .shadowed_image {
     -webkit-filter: drop-shadow(5px 5px 5px #222);
