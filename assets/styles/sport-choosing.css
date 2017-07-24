@@ -1,0 +1,22 @@
+body{
+    background-image: url(images/sky-background.jpg);
+    background-color: deepskyblue;    
+}
+
+.buttoncontainer{
+    margin: 7%;
+    display: block;
+    align-content: center;
+}
+
+.btn-sport{
+    width: 20%;
+    height: 35%;
+    margin: 2%;
+    padding: 40px;
+    font-size: 20px;
+    color: white;
+    background-color: transparent;
+    border-color: white;
+    border-radius: 15px; 
+}
