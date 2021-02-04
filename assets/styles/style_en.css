@@ -15,7 +15,7 @@ body {
     overflow: hidden;
     font-family: 'Alegreya Sans', sans-serif;
     text-align: center;
-    height: 100%;
+    overflow: hidden;
 }
 
 canvas {
@@ -113,7 +113,7 @@ a {
     user-select: none;
     background: #ffffff;
     background-color: rgba(255, 255, 255, 0.8);
-    position: absolute;
+    position: fixed;
     width: 100px;
     height: 40px;
     padding-top: 0;
